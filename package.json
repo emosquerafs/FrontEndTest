@@ -10,6 +10,7 @@
     "build:staging": "ng build --configuration staging",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
+    "test:cov": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "private": true,
