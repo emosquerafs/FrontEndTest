@@ -23,7 +23,7 @@ jobs:
     uses: emosquerafs/actions-templates/.github/workflows/buildAndTestApp.yml@main
     with:
       NODE_VERSION: ${{ inputs.NODE_VERSION }}
-      SONAR_TOKEN: ${{ inputs.SONAR_TOKEN }}
+      SONAR_TOKEN: 'sqa_c62ddabcdc20090d8fca922d97e896976260d38c'
       SONAR_HOST_URL: 'http://186.145.138.81:9000'
     
      
